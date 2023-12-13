@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <form action="/submit_details" method="post" class="student-form">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="pin">Pin No.:</label>
+        <input type="text" id="pin" name="pin" required><br><br>
+
+        <label>Sex:<br><br>
+            <input type="radio" name="option" value="option1">
+            Male   
+        </label>
+        <label>
+            <input type="radio" name="option" value="option1">
+            Female   
+        </label><br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="no.">Mobile:</label>
+        <input type="text" id="no." name="no." required><br><br>
+
+        <label for="mail">Email:</label>
+        <input type="text" id="mail" name="mail" required><br><br>
+
+        <label for="addr">Address:</label>
+        <input type="text" id="addr" name="addr" required><br><br>
+        <label>Languages:<br><br>
+            <input type="radio" name="option" value="option1">
+            C   
+        </label>
+        <label>
+            <input type="radio" name="option" value="option2">
+            C++ 
+        </label>
+        <label>
+            <input type="radio" name="option" value="option3">
+            Java
+        </label>
+        <label>
+            <input type="radio" name="option" value="option4">
+            Python
+        </label><br><br>
+
+        <label for="fw">Frameworks:</label>
+        <input type="text" id="fw" name="fw" required><br><br>
+
+        <label for="otherskills">Other Skills:</label>
+        <input type="text" id="otherskills" name="otherskills" required><br><br>
+
+        <label for="xtracurricular">Extra Curricular Activities:</label>
+        <input type="text" id="xtracurricular" name="xtracurricular" required><br><br>
+
+        
+        <input type="submit" value="Submit"
+            class="btn btn-outline-success">
+        <input type="reset" value="Cancel"
+            class="btn btn-outline-danger">
+    </form>
+</div>
+</body>
+</html>
